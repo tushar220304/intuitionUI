@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cources</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="expanded-nav" expand="false">
+        <a href="">Courses</a>
+        <a href="">Teachers</a>
+        <a href="">Blogs</a>
+        <a class="pink-btn" href="">Register</a>
+    </div>
+
+    <header>
+        <nav class="navbar black">
+            <div class="brand-logo">
+                <h3><a href="">Intuition Academy</a></h3>
+            </div>
+            <div class="nav-links">
+                <a href="">Courses</a>
+                <a href="">Teachers</a>
+                <a href="">Blogs</a>
+            </div>
+            <div class="nav-btn">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path class="header-svg-fill" d="M20.71,19.29l-3.4-3.39A7.92,7.92,0,0,0,19,11a8,8,0,1,0-8,8,7.92,7.92,0,0,0,4.9-1.69l3.39,3.4a1,1,0,1,0,1.42-1.42ZM5,11a6,6,0,1,1,6,6,6,6,0,0,1-6-6Z"></path>
+                    </svg>
+                </a>
+                <a href="">
+                    <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path class="header-svg-fill" d="M21.08,7a2,2,0,0,0-1.7-1H6.58L6,3.74A1,1,0,0,0,5,3H3A1,1,0,0,0,3,5H4.24L7,15.26A1,1,0,0,0,8,16h9a1,1,0,0,0,.89-.55l3.28-6.56A2,2,0,0,0,21.08,7Zm-4.7,7H8.76L7.13,8H19.38Z"></path>
+                        <circle class="header-svg-fill" cx="1.5" cy="1.5" r="1.5" transform="translate(6 18)"></circle>
+                        <circle class="header-svg-fill" cx="1.5" cy="1.5" r="1.5" transform="translate(16 18)"></circle>
+                    </svg>
+                </a>
+                <a class="expand-btn">
+                    <span class="exp-top"></span>
+                    <span class="exp-middle"></span>
+                    <span class="exp-bottom"></span>
+                </a>
+                <a class="pink-btn" href="">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-section">
+
+        <section class="courses">
+
+            <div class="search-container grey">
+                <div class="search">
+                    <h1>Courses</h1>
+                    <div class="search-form">
+                        <input class="search-course" type="text" name="search_courses" id="" placeholder="Search Courses here">
+                        <button>
+                            <img src="https://skilify.theuxuidesigner.com/images/svg/search-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="cat-btn">
+                    <a class="grey active" href="">All</a>
+                    <a class="grey" href="">Programming</a>
+                    <a class="grey" href="">Coding</a>
+                    <a class="grey" href="">Finance</a>
+                    <a class="grey" href="">Designing</a>
+                </div>
+                <div class="course-cards">
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <div class="course-img">
+                            <img src="https://skilify.theuxuidesigner.com/images/webp/crd-img.webp" alt="">
+                            <svg class="heart-svg" height="20px" viewBox="0 -20 480 480" width="25px" xmlns="http://www.w3.org/2000/svg">
+                                <path class="heart__path" d="m348 8c-44.773438.003906-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.195313-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0"></path>
+                                <path class="heart__stroke" d="m348 0c-43 .0664062-83.28125 21.039062-108 56.222656-24.71875-35.183594-65-56.1562498-108-56.222656-70.320312 0-132 65.425781-132 140 0 72.679688 41.039062 147.535156 118.6875 216.480469 35.976562 31.882812 75.441406 59.597656 117.640625 82.625 2.304687 1.1875 5.039063 1.1875 7.34375 0 42.183594-23.027344 81.636719-50.746094 117.601563-82.625 77.6875-68.945313 118.726562-143.800781 118.726562-216.480469 0-74.574219-61.679688-140-132-140zm-108 422.902344c-29.382812-16.214844-224-129.496094-224-282.902344 0-66.054688 54.199219-124 116-124 41.867188.074219 80.460938 22.660156 101.03125 59.128906 1.539062 2.351563 4.160156 3.765625 6.96875 3.765625s5.429688-1.414062 6.96875-3.765625c20.570312-36.46875 59.164062-59.054687 101.03125-59.128906 61.800781 0 116 57.945312 116 124 0 153.40625-194.617188 266.6875-224 282.902344zm0 0"></path>
+                            </svg>
+                        </div>
+                        <div class="course-info">
+                            <div class="ratings">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/star.svg
+                                " alt="Image Description">4.5
+                            </div>
+                            <div class="views">
+                                <img class="me-1" src="https://skilify.theuxuidesigner.com/images/svg/crd-view.svg" alt="Image Description">49,500
+                            </div>
+                            <div class="videos-count">
+                                <img class="me-1" src="	https://skilify.theuxuidesigner.com/images/svg/crd-play.svg" alt="Image Description">160
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="course-title">Learn Python Programming Language</p>
+                        <div class="course-details">
+                            <div class="author">
+                                <img src="https://skilify.theuxuidesigner.com/images/webp/profile-img1.webp" alt="Image Description">
+                                <p class="author-name">Tushar Kumar</p>
+                            </div>
+                            <div class="price">
+                                <del class="actual-price">₹500</del>
+                                <span class="discounted-price">₹400</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="teachers grey">
+            <div class="container">
+                <div class="cat-headline">
+                    <h1 class="inline">Classes taught by real teachers</h1>
+                    <a href="" class="pink-btn">View All</a>
+                </div>
+                <div class="teacher-container">
+                    <div class="teacher">
+                        <div class="teacher-img-bg">
+                            <div class="teacher-img-container">
+                                <picture>
+                                    <img src="https://skilify.theuxuidesigner.com/images/webp/teacher-crd3.webp" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3>Pradeep kumar</h3>
+                            <p>He is a very bad teacher i don't think so he can able to teach or not and i don't know who made him the teacher. He is a very biggest fraud of all time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

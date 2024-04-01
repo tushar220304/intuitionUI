@@ -1,0 +1,135 @@
+/* Radhe Radhe */
+
+main.main-section {
+    padding-top: 100px;
+}
+
+.search {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.search h1 {
+    font-size: 40px;
+}
+
+.search-form {
+    display: flex;
+    width: 60%;
+}
+
+.search-course {
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 15px;
+    border: 0;
+    width: 100%;
+}
+
+.search-form button {
+    background: #F56962;
+    border: none;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 3px 10px;
+}
+
+.search-form button img {
+    vertical-align: middle;
+}
+
+.cat-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.cat-btn a {
+    background: #EFEFF6;
+    color: #5F5982;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.cat-btn a.active,
+.cat-btn a.grey:hover {
+    color: #fff;
+    background-color: #565e64;
+    border-color: #51585e;
+    box-shadow: 0 7px 15px -2px #ccc;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.teacher {
+    /* padding: 25px 15px; */
+    margin: 50px 10px 10px 10px;
+    border: 1px solid #CAC6D4;
+    cursor: pointer;
+    width: calc(50% - 20px);
+    isolation: isolate;
+    background-color: #fff;
+    box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.4);
+    transition: .3s;
+    min-height: 100%;
+}
+
+.white-bg {
+    background-color: #fff;
+    padding: 15px;
+}
+
+/* .teacher:hover {
+    box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.8);
+} */
+
+.teacher .teacher-img-bg {
+    position: relative;
+    transition: .3s;
+    height: 200px;
+    background-color: #f68c20;
+    display: flex;
+    justify-content: center;
+}
+
+.teacher .teacher-img-bg::after {
+    position: absolute;
+    content: "";
+    top: -50px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #f68c20;
+}
+
+.teacher:hover .teacher-img-bg {
+    box-shadow: 0 40px 45px -30px #b9b9b9;
+}
+
+.teacher picture {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    /* transform: translateY(20px); */
+}
+
+.teacher-info {
+    padding: 10px 10px 0 10px;
+
+}

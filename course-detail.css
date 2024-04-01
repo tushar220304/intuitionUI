@@ -1,0 +1,141 @@
+/* Radhe Radhe */
+
+.course-col-seperator {
+    display: flex;
+    position: relative;
+}
+
+.course-container {
+    background-color: #fff0ef;
+    padding: 80px;
+    width: 100%;
+}
+
+.course-header, .course-information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: calc(70% - 30px);
+}
+
+.course-header .course-title {
+    color: #302D3A;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub-heading {
+    font-size: 20px;
+    color: #5F5982;
+    text-align: left;
+}
+
+.course-header .course-info {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.course-information {
+    padding: 80px;
+}
+
+.cat-btn {
+    justify-content: flex-start;
+}
+
+.cat-btn a.active {
+    background-color: #F68C20;
+}
+
+.course-desc p.pt-head {
+    color: #302D3A;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.course-desc p.pt-text {
+    font-size: 16px;
+    color: #5F5982;
+    margin: 5px 0;
+}
+
+.course-buy-card {
+    box-shadow: 0 0 25px -5px #c5c5c5;
+    width: calc(30% - 30px);
+    height: max-content;
+    background-color: #fff;
+    position: absolute;
+    right: 80px;
+    top: 90px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.course-buy-card .course-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.course-buy-card .price-detail {
+    text-align: center;
+}
+
+.course-buy-card .price-detail .discounted-price {
+    color: #302D3A;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.course-buy-card .price-detail .actual-price {
+    font-size: 24px;
+    vertical-align: text-bottom;
+}
+
+.course-notice {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: middle;
+}
+
+.course-buy-card .pink-btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.course-buy-card .course-points {
+    color: #302D3A;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.course-buy-card .course-points .course-points-item {
+    margin-bottom: 7px;
+    font-size: 16px;
+    color: #5F5982;
+}
+
+.course-buy-card .course-points .course-points-item img {
+    vertical-align: middle;
+}
+
+.share-section h4 {
+    margin: 10px 0;
+    color: #302D3A;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.share-section .share-icon-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
